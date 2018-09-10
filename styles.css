@@ -82,6 +82,10 @@
 	margin-left: 1rem;
 }
 
+.marginLeft2 {
+	margin-left: 5rem;
+}
+
 .underline-none {
 	text-decoration: none !important;
 }

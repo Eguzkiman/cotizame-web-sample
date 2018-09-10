@@ -1,0 +1,91 @@
+.noMargin {
+	margin: 0 !important;
+}
+
+.centerItem {
+	height: 100%;
+	flex-direction: row;
+	flex:1;
+	align-items: center;
+}
+
+.marginHorizontal {
+	margin: 0 1rem 0 1rem;
+}
+
+.padding {
+	padding: 8px 1rem 8px 1rem;
+}
+
+.noPadding {
+	padding: 0 !important;
+}
+
+.marginRight {
+	margin-right: 1rem;
+}
+
+.paddingBottom {
+	padding-bottom: 1rem;
+}
+
+.marginBottom {
+	margin-bottom: 1rem;
+}
+
+.row {
+	margin-right: 0;
+}
+
+.borderBottom {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.paddingVertical {
+	padding: 1rem 0 1rem 0;
+}
+
+.marginVertical {
+	margin: 1rem 0 1rem 0 !important;
+}
+
+.form-control {
+	border: transparent;
+}
+
+.input-group-text {
+	background-color: transparent;
+	border: transparent;
+}
+
+.gray {
+	color: #BDBDBD !important;
+}
+
+.gray-2 {
+	color: #8FA1AC;
+}
+
+.red {
+	color: #EB5757;
+}
+
+.dark {
+	color: #284457;
+}
+
+.darker {
+	color: #284457;
+}
+
+.marginLeft {
+	margin-left: 1rem;
+}
+
+.underline-none {
+	text-decoration: none !important;
+}
+
+.blue {
+	color: #2D9CDB
+}

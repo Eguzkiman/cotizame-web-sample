@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotízame Web</title>
+	<script src="https://unpkg.com/feather-icons"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<a class="navbar-brand marginLeft" href="#">
+				Cotízame
+			</a>
+			<div class="row align-items-center">
+				<div class="marginHorizontal">
+					<a href="#" class="text-dark">
+						<i data-feather="heart"></i>
+					</a>
+					<a href="#" class="text-dark">
+						<i data-feather="message-circle"></i>
+					</a>
+					<a href="#" class="text-dark">
+						<i data-feather="bell"></i>
+					</a>
+				</div>
+				<div class="marginHorizontal">
+					<div class="row align-items-center">
+						<div class="row justify-content-center marginHorizontal">
+							<img src="avatar.png" alt="">
+						</div>
+						<div>
+							<p class="noMargin">Gustavo Adolfo Pacheco Pagola</p>
+							<p class="noMargin text-secondary">Corporativo Cotemar - #0001337</p>
+						</div>
+						<div class="marginHorizontal">
+							<i class="material-icons align-middle">
+							arrow_drop_down
+							</i>					
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="row marginLeft">
+		<div class="col-2">
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="compass" class="gray-2 marginRight"></i>
+						<p class="noMargin gray-2"> Dashboard</p>					
+				</div>
+			</a>
+			<p class="noMargin font-weight-bold darker marginVertical">COMPRAS</p>
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="truck" class="blue marginRight"></i>
+						<p class="noMargin blue"> Todas las compras</p>					
+				</div>
+			</a>
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="bar-chart" class="gray-2 marginRight"></i>
+						<p class="noMargin gray-2"> Estadísticas</p>					
+				</div>
+			</a>
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="file-text" class="gray-2 marginRight"></i>
+						<p class="noMargin gray-2"> Informe comparativo</p>					
+				</div>
+			</a>
+			<p class="noMargin font-weight-bold darker marginVertical">CONFIGURACIÓN</p>
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="bell" class="gray-2 marginRight"></i>
+						<p class="noMargin gray-2"> Notificaciones</p>					
+				</div>
+			</a>
+			<a href="#" class="underline-none ">
+				<div class="row noMargin marginVertical">
+						<i data-feather="user" class="gray-2 marginRight"></i>
+						<p class="noMargin gray-2"> Cuenta</p>					
+				</div>
+			</a>	
+		</div>
+		<div class="col-10">
+			<div class="row">
+				<h1>Mis compras</h1>
+			</div>
+<!-- Search Bar -->
+			<div class="row justify-content-between marginBottom align-item-center">
+				<div class="col-5 noPadding">
+					<div class="input-group bg-light">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="inputGroup-sizing-sm">						
+					    	<i data-feather="search" class="gray-2"></i>
+						</span>
+					  </div>
+					  <input type="text" class="form-control bg-light gray-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Busca una compra">
+					  <div class="input-group-append">
+					      <span class="input-group-text"><i data-feather="sliders" class="gray-2"></i></span>
+					    </div>
+					</div>
+				</div>
+				<div class="col-5">
+					<div class="row justify-content-end">
+						<button type="button" class="btn btn-lg btn-danger marginHorizontal" > <i data-feather="refresh-ccw" class="marginRight"></i>Reprocesar</button>
+						<button type="button" class="btn btn-lg btn-primary" > <i data-feather="download" class="marginRight"></i>Exportar</button>
+					</div>
+				</div>
+			</div>
+
+
+<!-- ############################################################################################## -->
+			
+			<div class="row align-item-center paddingVertical bg-light marginBottom">
+				<div class="col-2">
+					<p class="noMargin font-weight-bold dark">Solped</p>
+				</div>
+				<div class="col-3 ">
+					<p class="noMargin font-weight-bold dark">Material / Servicio</p>
+				</div>
+				<div class="col-2 ">
+					<p class="noMargin font-weight-bold dark">Mejor precio</p>
+				</div>
+				<div class="col-2 noPadding">
+					<p class="noMargin font-weight-bold dark">Status</p>
+				</div>
+				<div class="col-2 noPadding">
+					<p class="noMargin font-weight-bold dark">Tiempo restante</p>
+				</div>
+				<div class="col-1"></div>
+			</div>
+
+
+ <!-- ######################################################################################## -->
+			<div class="row align-items-center paddingBottom marginBottom borderBottom">
+				<div class="col-2">
+					<div class="row align-items-center">
+						<i data-feather="square" class="marginRight gray-2"></i>
+						<p class="noMargin gray-2">
+							133718-17s
+						</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="row align-items-center">
+						<div class="col-2 noPadding">
+							<img src="boots.png" alt="">
+						</div>
+						<div class="col">
+							<p class="noMargin">Botas para Operador de Helicóptero Modelo H1337-B</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-2">
+					<p class="noMargin gray-2">$42, 337.00 MXN</p>
+				</div>
+				<div class="col-2">
+					<div class="row align-items-center">
+						<img src="greenCircle.png" alt="" class="marginRight">
+						<p class="noMargin">En tratamiento</p>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="row">
+						<i data-feather="clock" class="marginRight red"></i>
+						<p class="noMargin red">00:15:17</p>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="row align-items-center justify-content-around">
+						<button type="button" class="btn btn-outline-primary">Mejorar Precio</button>
+						<a href="#">
+							<i data-feather="more-vertical" class="gray"></i>
+						</a>
+
+					</div>
+				</div>
+			</div>
+ <!-- ######################################################################################## -->
+
+		</div>
+	</div>
+
+		<script>
+	  feather.replace()
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
